@@ -21,7 +21,7 @@ Platform SAS 9.4m7 SAS/ACCESS to Spark Interface or SAS/ACCESS to JDBC is suppor
 
 ## Step-by-Step guide for ODBC:
 1. Download latest ODBC driver from https://databricks.com/spark/odbc-drivers-download
-2. Install ODBC driver on SAS server and add path to CLASSPATH variable
+2. Install ODBC driver on SAS server
 3. Make sure that ODBC driver manager (eg UnixODBC) is install on SAS Server and properly configured
 4. Obtain ODBC connection details to Databricks, using Advance Option menu on Databricks cluster page 
 5. Create Databricks Access Token for SAS
