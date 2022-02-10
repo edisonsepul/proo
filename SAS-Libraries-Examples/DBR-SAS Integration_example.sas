@@ -52,7 +52,7 @@ UID=token;" authdomain="AuthDBR" schema="default";
   Update driver (with path to odbc driver). Host,HTTPPath fields update with value from Step 3, update authdomain with the name of domain from step 5. 
   The other option to use DSN from
   Note: This configuration points only to default database from Databricks, to point to other database update schema value 	 	
-
+  readbuff= option doesn't affect performance 
 */
 libname dbrodbc odbc 
 noprompt='Driver=/opt/simba/spark/lib/64/libsparkodbc_sb64.so;
